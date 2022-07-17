@@ -304,14 +304,6 @@ def run_tests():
     print("\n============== Running cardio experiment =================")
     cardio_reader.run_experiment(run_experiment, saveToFile)
 
-    # # un-comment to run bounds experimrnt in the paper
-    #breast_cancer_reader.run_bounds_experiment(bound_experiment)
-    #obs_network_reader.run_bounds_experiment(bound_experiment)
-
-    # # un-comment to run dependency error experiment in the paper
-    #print("Running dependent error on cardio experiment...")
-    # cardio_reader.run_dep_error_exp(dependent_error_exp)
-
 
 if __name__ == '__main__':
     run_tests()
